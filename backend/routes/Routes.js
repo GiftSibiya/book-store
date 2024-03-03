@@ -9,8 +9,13 @@ const routers = express.Router();
 
 /// ROUTES ///
 
+// BOOK ROUTES
 routers.get("/book", GetBook);
 routers.post("/book", AddBook);
+
+// USER ROUTES
+routers.get("/users", GetBook);
+routers.post("/users", AddBook);
 
 ///--///
 
